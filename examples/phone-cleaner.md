@@ -2,7 +2,7 @@
 ```python
 def phone_cleaner(tel):
     clear_phone = ''
-    for digit in tel:
+    for digit in str(tel):
         if digit in '1234567890':
             clear_phone += digit
     return clear_phone
